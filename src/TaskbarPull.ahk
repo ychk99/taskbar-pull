@@ -1,6 +1,6 @@
 ﻿/*
   Taskbar Pull - brings a window to the screen whose taskbar you click.
-  https://github.com/OWNER/taskbar-pull  ·  MIT licence  ·  Copyright (c) 2026 Yasser Chkam
+  https://github.com/ychk99/taskbar-pull  ·  MIT licence  ·  Copyright (c) 2026 Yasser Chkam
 
   Runs on AutoHotkey v2. Shipped as the official AutoHotkey interpreter renamed TaskbarPull.exe
   next to this file: started without a script, AutoHotkey runs the .ahk file named after itself.

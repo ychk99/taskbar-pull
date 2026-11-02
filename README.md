@@ -54,7 +54,7 @@ French versions use `-fr-` instead of `-en-`; `-native` files are at 150 % scali
 Pick one:
 
 - **Installer (recommended)** — `TaskbarPull-<version>-setup.exe` from the
-  [Releases](https://github.com/OWNER/taskbar-pull/releases) page. It installs for your user
+  [Releases](https://github.com/ychk99/taskbar-pull/releases) page. It installs for your user
   only (no administrator rights), adds a Start menu shortcut and can start Taskbar Pull with Windows.
 - **winget** — `winget install YsIdeas.TaskbarPull` *(once the package is accepted)*.
 - **Microsoft Store** — *(link once published)*. The Store version starts with Windows through the

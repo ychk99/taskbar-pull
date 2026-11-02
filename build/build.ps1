@@ -15,7 +15,7 @@
 [CmdletBinding()]
 param(
     [string]$Version,
-    [string]$RepoUrl = 'https://github.com/OWNER/taskbar-pull',
+    [string]$RepoUrl = 'https://github.com/ychk99/taskbar-pull',
     # Store identity: fill these from Partner Center (Product identity page) before submitting
     [string]$IdentityName = 'YsIdeas.TaskbarPull',
     [string]$Publisher = 'CN=00000000-0000-0000-0000-000000000000',

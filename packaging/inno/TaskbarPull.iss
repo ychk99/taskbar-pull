@@ -15,7 +15,7 @@
   #define OutDir "..\..\dist"
 #endif
 #ifndef RepoUrl
-  #define RepoUrl "https://github.com/OWNER/taskbar-pull"
+  #define RepoUrl "https://github.com/ychk99/taskbar-pull"
 #endif
 
 [Setup]
