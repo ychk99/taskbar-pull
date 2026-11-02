@@ -2,7 +2,7 @@
 
 All notable changes to Taskbar Pull. Versions follow [Semantic Versioning](https://semver.org/).
 
-## 1.0.0 - 2026-11-01
+## 1.0.0 - 2026-11-02
 
 First public release (release candidate prepared 1 Nov 2026).
 
