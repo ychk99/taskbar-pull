@@ -1,0 +1,4 @@
+/dist/
+/dist-old/
+/build/.cache/
+*.log

@@ -1,0 +1,25 @@
+THIRD-PARTY NOTICES
+===================
+
+Taskbar Pull's own code (the .ahk files, build scripts, packaging files and artwork) is under the
+MIT licence (see LICENSE). The release packages also contain the following third-party component.
+
+AutoHotkey 2.0.31
+-----------------
+TaskbarPull.exe in the portable zip, the installer and the MSIX package is the official AutoHotkey
+v2.0.31 64-bit interpreter (AutoHotkey64.exe from https://www.autohotkey.com/download/2.0/AutoHotkey_2.0.31.zip,
+SHA-256 of the zip CA1A595ACA4528755D8D4CD7FED23D497A37BD9A0B6892072612D68DEE1BD00A), renamed and
+otherwise unmodified. It runs Taskbar Pull's script; Taskbar Pull does not modify or link AutoHotkey's code.
+
+  Copyright (C) Steve Gray, Chris Mallett, portions AutoIt Team and various others
+  Licence:  GNU General Public License, version 2 (GPL-2.0)
+            The full text ships as licenses/AutoHotkey-license.txt next to TaskbarPull.exe.
+  Website:  https://www.autohotkey.com/
+  Source code of the exact version shipped (tag v2.0.31):
+            https://github.com/AutoHotkey/AutoHotkey/tree/v2.0.31
+            https://github.com/AutoHotkey/AutoHotkey/archive/refs/tags/v2.0.31.zip
+
+As the GPL-2.0 requires for distributing the binary, the corresponding source code of AutoHotkey
+2.0.31 is available at the links above. If those links ever stop working, ask through the Taskbar
+Pull repository's issues and a copy of that source will be provided for three years from the
+release date.
