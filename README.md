@@ -189,6 +189,11 @@ Tests (`tests\`) drive the real desktop with simulated input and only run while 
 [docs/TESTING.md](docs/TESTING.md). Release steps (GitHub, winget, Microsoft Store) are in
 [docs/RELEASING.md](docs/RELEASING.md).
 
+## Privacy
+
+Taskbar Pull collects nothing and never connects to the internet; settings and logs stay on your PC.
+See the [privacy policy](docs/privacy.md).
+
 ## Licence
 
 MIT — see [LICENSE](LICENSE). Copyright © 2026 Yasser Chkam.
