@@ -1,7 +1,7 @@
 ﻿<#
 .SYNOPSIS
   Downloads the build inputs into build\.cache and checks them:
-    - AutoHotkey 2.0.31 (official zip, SHA-256 pinned below)
+    - AutoHotkey 2.0.31 (official zip from AutoHotkey's GitHub releases, SHA-256 pinned below)
     - makeappx.exe / makepri.exe from Microsoft's Microsoft.Windows.SDK.BuildTools NuGet package
     - Inno Setup 6 (official, Authenticode-checked), installed per user when ISCC.exe is not found
   Nothing here needs administrator rights.
@@ -17,7 +17,8 @@ $ProgressPreference = 'SilentlyContinue'
 
 # ---- pinned inputs (update together)
 $AhkVersion = '2.0.31'
-$AhkZipUrl = "https://www.autohotkey.com/download/2.0/AutoHotkey_$AhkVersion.zip"
+# GitHub release, not autohotkey.com: its Cloudflare check answers CI runners with a challenge page (same file, same hash)
+$AhkZipUrl = "https://github.com/AutoHotkey/AutoHotkey/releases/download/v$AhkVersion/AutoHotkey_$AhkVersion.zip"
 $AhkZipSha256 = 'CA1A595ACA4528755D8D4CD7FED23D497A37BD9A0B6892072612D68DEE1BD00A'
 $BuildToolsVersion = '10.0.28000.2957'
 $BuildToolsUrl = "https://api.nuget.org/v3-flatcontainer/microsoft.windows.sdk.buildtools/$BuildToolsVersion/microsoft.windows.sdk.buildtools.$BuildToolsVersion.nupkg"
